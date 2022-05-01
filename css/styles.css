@@ -1,0 +1,40 @@
+:root{
+    /*fonts*/
+
+    --main-font: "Roboto", sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /*text-colors*/
+    
+  --main-txt-cl: #757575;
+  --secondary-txt-cl: #212121;
+  --accent-cl: #2196F3;
+  --secondary-txt-white: #FFFFFF;
+
+   /*background-colors*/
+
+   --main-bg-cl:#ffffff ;
+  --secondary-bg-cl:#F5F4FA ;
+  --dark-bg-cl: #2F303A;
+}
+body{
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  
