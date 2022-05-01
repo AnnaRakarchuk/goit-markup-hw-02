@@ -21,6 +21,7 @@
 
 body {
   font-family: var(--main-font);
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -52,10 +53,6 @@ body {
 /*-----------------
 | Header section
 -------------------*/
-.header {
-  background-color: #ececec;
-}
-
 .link {
   font-weight: 500;
   font-size: 14px;
@@ -116,7 +113,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--secondary-txt-white);
   background-color: var(--bgd-button);
-
   cursor: pointer;
 }
 
@@ -128,10 +124,6 @@ body {
 /*-----------------
 | Benefits section
 -------------------*/
-.benefits {
-  background-color: var(--main-bg-cl);
-}
-
 .benefits-title {
   font-weight: 700;
   font-size: 14px;
@@ -141,7 +133,6 @@ body {
   color: var(--secondary-txt-cl);
 }
 .benefits-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -150,9 +141,6 @@ body {
 /*-----------------
 | Section What are we doing
 -------------------*/
-.work {
-  background-color: var(--main-bg-cl);
-}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -179,7 +167,6 @@ body {
   color: var(--secondary-txt-cl);
 }
 .members-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -200,7 +187,6 @@ body {
   font-style: normal;
 }
 .footer-address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -211,7 +197,6 @@ body {
   color: var(--accent-cl);
 }
 .footer-contact-item {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -225,9 +210,6 @@ body {
 /*======================
 | Main content page portfolio
 ========================*/
-.portfolio {
-  background-color: var(--main-bg-cl);
-}
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -237,6 +219,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
@@ -244,8 +227,8 @@ body {
   color: var(--secondary-txt-white);
   background-color: #2196f3;
 }
-.portfolio-cards-item{
-    background-color: var(--main-bg-cl);
+.portfolio-cards-item {
+  background-color: var(--main-bg-cl);
 }
 .cards-title {
   font-weight: 700;
@@ -255,7 +238,6 @@ body {
   color: var(--secondary-txt-cl);
 }
 .cards-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
