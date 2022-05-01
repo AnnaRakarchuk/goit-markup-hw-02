@@ -227,6 +227,14 @@ body {
   color: var(--secondary-txt-white);
   background-color: #2196f3;
 }
+.portfolio-link{
+  text-decoration: none;
+  color: currentColor;
+}
+.portfolio-link:hover,
+.portfolio-link:focus{
+  color: var(--accent-cl);
+}
 .portfolio-cards-item {
   background-color: var(--main-bg-cl);
 }
@@ -243,3 +251,4 @@ body {
   letter-spacing: 0.03em;
   color: currentColor;
 }
+
