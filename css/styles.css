@@ -1,40 +1,88 @@
-:root{
-    /*fonts*/
+:root {
+  /*fonts*/
 
-    --main-font: "Roboto", sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 
-    /*text-colors*/
-    
+  /*text-colors*/
+
   --main-txt-cl: #757575;
   --secondary-txt-cl: #212121;
-  --accent-cl: #2196F3;
-  --secondary-txt-white: #FFFFFF;
+  --accent-cl: #2196f3;
+  --secondary-txt-white: #ffffff;
 
-   /*background-colors*/
+  /*background-colors*/
 
-   --main-bg-cl:#ffffff ;
-  --secondary-bg-cl:#F5F4FA ;
-  --dark-bg-cl: #2F303A;
+  --main-bg-cl: #ffffff;
+  --secondary-bg-cl: #f5f4fa;
+  --dark-bg-cl: #2f303a;
 }
-body{
-    font-family: var(--main-font);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--main-txt-cl);
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
 }
 
 .visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.link {
+    text-decoration: none;
+    color: currentColor;
   }
-  
+.list{
+    list-style: none;
+  }
+
+/*-----------------
+| Header section
+-------------------*/
+.header{
+    background-color: #ECECEC;
+}
+.link{
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
+    }
+.link-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-web{
+    color: var(--accent-cl);
+}
+.link:hover,
+.link:focus{
+    color: var(--accent-cl);
+}
+.contacts-link{
+    color: var(--main-txt-cl);
+}
+
+/*-----------------
+| Main content page studio
+-------------------*/
+/*-----------------------------------------------*/
+/*-----------------
+| Hero section
+-------------------*/
