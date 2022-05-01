@@ -16,7 +16,9 @@
   --main-bg-cl: #ffffff;
   --secondary-bg-cl: #f5f4fa;
   --dark-bg-cl: #2f303a;
+  --bgd-button: #2196f3;
 }
+
 body {
   font-family: var(--main-font);
   font-size: 14px;
@@ -39,27 +41,43 @@ body {
 }
 
 .link {
-    text-decoration: none;
-    color: currentColor;
-  }
-.list{
-    list-style: none;
-  }
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: var(--main-font);
+  font-size: 16px;
+  text-align: center;
+  color: var(--secondary-txt-white);
+  background-color: #f5f4fa;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #2196f3;
+}
 
 /*-----------------
 | Header section
 -------------------*/
-.header{
-    background-color: #ECECEC;
+.header {
+  background-color: #ececec;
 }
-.link{
-    font-family: var(--main-font);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--secondary-txt-cl);
-    }
+
+.link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-cl);
+}
+
 .link-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -68,21 +86,80 @@ body {
   letter-spacing: 0.03em;
   color: #000000;
 }
-.logo-web{
-    color: var(--accent-cl);
-}
-.link:hover,
-.link:focus{
-    color: var(--accent-cl);
-}
-.contacts-link{
-    color: var(--main-txt-cl);
+
+.logo-web {
+  color: var(--accent-cl);
 }
 
-/*-----------------
+.link:hover,
+.link:focus {
+  color: var(--accent-cl);
+}
+
+.contacts-link {
+  color: var(--main-txt-cl);
+}
+
+/*======================
 | Main content page studio
--------------------*/
-/*-----------------------------------------------*/
+========================*/
 /*-----------------
 | Hero section
 -------------------*/
+.hero {
+  background-color: var(--dark-bg-cl);
+}
+
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-txt-white);
+}
+
+.hero-btn {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-txt-white);
+  background-color: var(--bgd-button);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+
+/*-----------------
+| Benefits section
+-------------------*/
+.benefits {
+  background-color: var(--main-bg-cl);
+}
+
+.benefits-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-txt-cl);
+}
+.benefits-text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: currentColor;
+}
