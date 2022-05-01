@@ -49,19 +49,6 @@ body {
   list-style: none;
 }
 
-.btn {
-  font-family: var(--main-font);
-  font-size: 16px;
-  text-align: center;
-  color: var(--secondary-txt-white);
-  background-color: #f5f4fa;
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: #2196f3;
-}
-
 /*-----------------
 | Header section
 -------------------*/
@@ -70,7 +57,6 @@ body {
 }
 
 .link {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -84,11 +70,11 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--accent-cl);
 }
 
-.logo-web {
-  color: var(--accent-cl);
+.logo-studio {
+  color: #000000;
 }
 
 .link:hover,
@@ -111,7 +97,6 @@ body {
 }
 
 .hero-title {
-  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -122,16 +107,17 @@ body {
 }
 
 .hero-btn {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--secondary-txt-white);
   background-color: var(--bgd-button);
+
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -147,7 +133,6 @@ body {
 }
 
 .benefits-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -156,10 +141,123 @@ body {
   color: var(--secondary-txt-cl);
 }
 .benefits-text {
-  font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: currentColor;
+}
+/*-----------------
+| Section What are we doing
+-------------------*/
+.work {
+  background-color: var(--main-bg-cl);
+}
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-cl);
+}
+/*-----------------
+| Section Our team
+-------------------*/
+.team {
+  background-color: #f5f4fa;
+}
+.team-item {
+  background-color: #ffffff;
+}
+.members-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-cl);
+}
+.members-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: currentColor;
+}
+
+/*-----------------
+| Footer section
+-------------------*/
+.footer {
+  background-color: var(--dark-bg-cl);
+}
+.footer-logo-studio {
+  color: var(--secondary-txt-white);
+}
+.footer-address {
+  font-style: normal;
+}
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-white);
+}
+.footer-address:hover,
+.footer-address:focus {
+  color: var(--accent-cl);
+}
+.footer-contact-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contact-item:hover,
+.footer-contact-item:focus {
+  color: var(--accent-cl);
+}
+
+/*======================
+| Main content page portfolio
+========================*/
+.portfolio {
+  background-color: var(--main-bg-cl);
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-cl);
+  background-color: #f5f4fa;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--secondary-txt-white);
+  background-color: #2196f3;
+}
+.portfolio-cards-item{
+    background-color: var(--main-bg-cl);
+}
+.cards-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-txt-cl);
+}
+.cards-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: currentColor;
 }
