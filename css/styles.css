@@ -10,6 +10,7 @@
   --secondary-txt-cl: #212121;
   --accent-cl: #2196f3;
   --secondary-txt-white: #ffffff;
+  --secondary-txt-black:#000000;
 
   /*background-colors*/
 
@@ -17,13 +18,12 @@
   --secondary-bg-cl: #f5f4fa;
   --dark-bg-cl: #2f303a;
   --bgd-button: #2196f3;
+  --secondary-bgd-button: #188ce8;
 }
 
 body {
   font-family: var(--main-font);
-  font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .logo-studio {
-  color: #000000;
+  color: var(--secondary-txt-black);
 }
 
 .link:hover,
@@ -81,6 +81,10 @@ body {
 
 .contacts-link {
   color: var(--main-txt-cl);
+}
+
+.current{
+  color: var(--accent-cl);
 }
 
 /*======================
@@ -118,7 +122,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: #188ce8;
+  background-color: var(--secondary-bgd-button);
 }
 
 /*-----------------
@@ -153,10 +157,10 @@ body {
 | Section Our team
 -------------------*/
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-bg-cl);
 }
 .team-item {
-  background-color: #ffffff;
+  background-color: var(--main-bg-cl);
 }
 .members-title {
   font-weight: 500;
@@ -168,7 +172,7 @@ body {
 }
 .members-position {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: currentColor;
@@ -187,6 +191,7 @@ body {
   font-style: normal;
 }
 .footer-address {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -197,6 +202,7 @@ body {
   color: var(--accent-cl);
 }
 .footer-contact-item {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -218,22 +224,18 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-txt-cl);
-  background-color: #f5f4fa;
+  background-color: var(--secondary-bg-cl);
   cursor: pointer;
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: var(--secondary-txt-white);
-  background-color: #2196f3;
+  background-color: var(--bgd-button);
 }
 .portfolio-link{
   text-decoration: none;
   color: currentColor;
-}
-.portfolio-link:hover,
-.portfolio-link:focus{
-  color: var(--accent-cl);
 }
 .portfolio-cards-item {
   background-color: var(--main-bg-cl);
